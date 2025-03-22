@@ -285,7 +285,7 @@ int main() {
             break;
             case 7:
                 resultado2 = superpoder1 > superpoder2 ? 1 : 0;
-                if (resultado2){
+                if (resultado2 == 1){
                     printf("-País da Carta 1: %s - País da Carta 2: %s\n", pais1, pais2);
                     printf("Super Poder da Carta 1: %.2f - Super Poder da Carta 2: %.2f\n", superpoder1, superpoder2);
                     printf("-Carta 1 venceu pelo atributo Super Poder!\n"); }
